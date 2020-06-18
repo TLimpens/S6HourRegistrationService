@@ -5,8 +5,9 @@
     <UserSecretsId>acadd6b5-82f1-47e9-9d68-876ddf6a563c</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <ApplicationIcon />
-    <OutputType>exe</OutputType>
+    <OutputType>Library</OutputType>
     <StartupObject />
+	<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
   </PropertyGroup>
 
   <ItemGroup>
