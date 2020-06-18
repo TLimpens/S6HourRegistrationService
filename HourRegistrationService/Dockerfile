@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["HourRegistrationService/HourRegistrationService.csproj", "HourRegistrationService/"]
+COPY ["HourRegistrationService.csproj", "HourRegistrationService/"]
 RUN dotnet restore "HourRegistrationService/HourRegistrationService.csproj"
 COPY . .
 WORKDIR "/src/HourRegistrationService"
